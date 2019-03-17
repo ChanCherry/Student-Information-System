@@ -9,7 +9,7 @@ int main()
 	float max;int min;
 	while(1)
 	{	
-    cout<<"\n\t\t\t主菜单\n";
+    		cout<<"\n\t\t\t主菜单\n";
 		cout<<"\t==================================\n";
 		cout<<"\t\t1. 输入学生成绩\n";
 		cout<<"\t\t2. 学号查询学生成绩\n";
@@ -24,7 +24,7 @@ int main()
 		cin>>x;
 		switch(x)
 		{	
-        case 1:head=insert(head); break;
+        		case 1:head=insert(head); break;
 		   	case 2:search_num(head); break;
 		   	case 3:head=dele_num(head); break;
 		   	case 4:head=modi_num(head); break;
@@ -33,7 +33,7 @@ int main()
 		   	case 7:search(head,min); break;
 		   	case 0:cout<<"谢谢使用！";exit(0);
 		   	default:cout<<"\n输入错误，请重新输入！"; break;
-	  }
+	  	}
 	}
 	return 0;
 }
